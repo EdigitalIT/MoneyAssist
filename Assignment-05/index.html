@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Money Assist</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+
+</head>
+<body>
+    <h1  class="heading"> Money Assist  </h1>
+    <div ><h4 id="dataerror" class="alart"><strong>Hey Brainless!</strong> You should write those fields Carefully with positive Intiger. </h4>
+          <h4 id="saveerror" class="alart" > <strong>Hey Bill Gates!</strong> Are You Kidding with me?!!.</h4>
+    </div>
+
+    <section class="d-flex">
+        <div class="div-sizing ms-5 ps-5"><img src="pic.png" width="500" height="600" /> </div>
+        <div class="div-sizing m-5 pt-3 p-5 bg-color">
+            <h3 class="text-center text-info"> My Income</h3>
+
+            <h5 class="text-info"> Inc:   <input id="Income" type="text" /></h5>
+            <h3 class="text-center text-info"> My Expenses</h3>
+            <h5 class="text-info"> Rent:     <input id="Rent" type="text" /></h5>
+            <h5 class="text-info"> Food:     <input id="Food" type="text" /></h5>
+            <h5 class="text-info"> Shop:     <input id="Shop" type="text" /></h5>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button type="button" class="btn btn-info" id="calculator">Calculate</button>
+            </div>
+            <div class="m-2 p-1">
+                <h3 class="text-danger"> Total Expenses:<span id="TotalExpenses"> 0000</span></h3>
+                <h3 class="text-success ms-5 ps-3">  Balance:<span id="Balances"> 00000</span></h3>
+            </div>
+            <div> <span class="fs-3 text-info">save:</span> <input id="Save" type="text" /> <span class="text-info">%</span>  <button type="button" id="Save-button" class="btn btn-info">Save</button>  </div>
+            <div class="m-2 p-1">
+                <h3 class="text-info"> Savings Amount:<span id="SavingsAmount"> 0000</span></h3>
+                <h3 class="text-success"> Remaining Balance:<span id="RemainingBalance"> 0000</span></h3>
+            </div>
+        </div>
+    </section>
+    <script src="javascript.js"></script>
+</body>
+ 
+
+</html>

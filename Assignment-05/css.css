@@ -1,0 +1,25 @@
+.heading {
+    color: deepskyblue;
+    text-align: center;
+    font-weight:bolder;
+    padding-top:20px;
+    margin-top: 20px;
+}
+.div-sizing{
+    margin:20px;
+    padding:20px;
+}
+.bg-color{
+    background-color:midnightblue;
+}
+.alart {
+    display: none;
+    text-align: center;
+    background-color: yellow;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: red;
+    border-radius: 20px;
+    width: 80%;
+}
